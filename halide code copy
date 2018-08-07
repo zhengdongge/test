@@ -1,0 +1,28 @@
+sudo docker run -v /home/gzd/Documents/programming/git/clone/scenes2014datasets/im0:/datasets -v /home/gzd/Documents/programming/git/clone/approx-vision:/approx-vision -it mbuckler/approx-vision
+
+sudo chmod -R 777 
+
+python pipeline.py --build True --infile /approx-vision/pipelines/CLI/temp/copy.png --outfile /approx-vision/pipelines/CLI/temp/output/output.png --version 101
+
+Adirondack-perfect_im0_output
+
+export PATH=$PATH:/home/gzd/Documents/programming/pin-3.6-97554-g31f0a167d-gcc-linux
+
+
+/Documents/programming/pin-3.6-97554-g31f0a167d-gcc-linux/source/tools/ManualExamples
+make DEBUG=1 stack-debugger.test
+
+../../../pin -appdebug -t obj-intel64/stack-debugger.so -- obj-intel64/fibonacci.exe 1000
+
+g++ Pipeline.cpp CameraModel.cpp PipelineUtil.cpp ../../common/pipe_stages.cpp ../../common/LoadCamModel.cpp ../../common/MatrixOps.cpp -g -I ~/packages/Halide/include/ -I ~/packages/Halide/tools -L ~/packages/Halide/bin -lHalide `libpng-config --cflags --ldflags` `pkg-config opencv --cflags --libs` -lpthread -ldl -lm -o Pipeline.o -std=c++11
+
+
+/approx-vision/pipelines/CLI/core/Pipeline /approx-vision/pipelines/CLI/temp/temp_in.png /approx-vision/pipelines/CLI/temp/output/output.png /approx-vision/cam_models/NikonD7000/ 6 3702 Scale DemosNN Transform GamutMap ToneMap Descale
+
+/home/gzd/Documents/programming/pin-3.6-97554-g31f0a167d-gcc-linux/pin -t /home/gzd/Documents/programming/pin-3.6-97554-g31f0a167d-gcc-linux/source/tools/ManualExamples/obj-intel64/inscount0.so -o inscount0.log -- /bin/ls
+
+
+../../../pin -t obj-intel64/inscount0.so -- obj-intel64/fibonacci.exe 1000
+
+
+
