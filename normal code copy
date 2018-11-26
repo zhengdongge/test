@@ -1,3 +1,71 @@
 sudo chmod -R 777 
+./pycharm.sh
 
+#install python3.7
+./configure
+make
+sudo make install
+
+#uninstall anaconda3
+conda install anaconda-clean
+anaconda-clean
+rm -rf ~/anaconda
+
+#uninstall python3.5
+sudo apt-get remove --purge python3.6
+
+git remote get-url origin
+
+方法: 
+    git reset --hard <commit_id>
+    git push origin HEAD --force
+其他:
+    根据–soft –mixed –hard，会对working tree和index和HEAD进行重置:
+    git reset –mixed：此为默认方式，不带任何参数的git reset，即时这种方式，它回退到某个版本，只保留源码，回退commit和index信息
+    git reset –soft：回退到某个版本，只回退了commit的信息，不会恢复到index file一级。如果还要提交，直接commit即可
+    git reset –hard：彻底回退到某个版本，本地的源码也会变为上一个版本的内容
+    HEAD 最近一个提交
+    HEAD^ 上一次
+    <commit_id>  每次commit的SHA1值. 可以用git log 看到,也可以在页面上commit标签页里找到
+
+git reset HEAD^1
+
+
+sudo gedit /usr/share/applications/pycharm.desktop
+
+[Desktop Entry]
+Encoding=UTF-8
+Name=PyCharm
+Exec=/home/Program Files/pycharm-community-2018.2.3/bin/pycharm.sh
+Icon=/home/Program Files/pycharm-community-2018.2.3/bin/PyCharm.png
+Type=Application
+Categories=Application
+StartupWMClass=PyCharm
+Terminal=false
+
+
+python 3.7 installation
+On a fresh Debian image, cloning https://github.com/python/cpython and running:
+
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get dist-upgrade
+sudo apt-get install build-essential python-dev python-setuptools python-pip python-smbus
+sudo apt-get install libncursesw5-dev libgdbm-dev libc6-dev
+sudo apt-get install zlib1g-dev libsqlite3-dev tk-dev
+sudo apt-get install libssl-dev openssl
+sudo apt-get install libffi-dev
+And then
+
+./configure
+make
+sudo make altinstall
+Got 3.7 installed and working for me.
+
+
+nbfc
+sudo systemctl enable nbfc --now
+nbfc.exe config --apply "X23085"
+nbfc.exe config --apply "X230708090"
+nbfc.exe status
 
