@@ -1,0 +1,668 @@
+gzd@X230:~$ sudo apt install caffe-cpu
+[sudo] password for gzd: 
+Sorry, try again.
+[sudo] password for gzd: 
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  flashplugin-installer gir1.2-gtk-2.0 gir1.2-harfbuzz-0.0 gir1.2-mutter-2
+  icu-devtools libargon2-0 libarmadillo8 libass5 libatk1.0-dev
+  libavcodec-ffmpeg56 libavcodec57 libavfilter-ffmpeg5 libavfilter6
+  libavformat-ffmpeg56 libavformat57 libavresample-ffmpeg2 libavresample3
+  libavutil-ffmpeg54 libavutil55 libbluray1 libboost-atomic-dev
+  libboost-atomic1.58.0 libboost-atomic1.65.1 libboost-atomic1.67-dev
+  libboost-atomic1.67.0 libboost-chrono-dev libboost-chrono1.58.0
+  libboost-chrono1.65.1 libboost-chrono1.67-dev libboost-chrono1.67.0
+  libboost-container-dev libboost-container1.65.1 libboost-container1.67-dev
+  libboost-container1.67.0 libboost-context-dev libboost-context1.58.0
+  libboost-context1.65.1 libboost-context1.67-dev libboost-context1.67.0
+  libboost-coroutine-dev libboost-coroutine1.58.0 libboost-coroutine1.65.1
+  libboost-coroutine1.67-dev libboost-coroutine1.67.0 libboost-date-time-dev
+  libboost-date-time1.65.1 libboost-date-time1.67-dev libboost-dev
+  libboost-exception-dev libboost-exception1.67-dev libboost-fiber-dev
+  libboost-fiber1.65.1 libboost-fiber1.67-dev libboost-fiber1.67.0
+  libboost-filesystem-dev libboost-filesystem1.65.1
+  libboost-filesystem1.67-dev libboost-graph-dev libboost-graph-parallel-dev
+  libboost-graph-parallel1.65.1 libboost-graph-parallel1.67-dev
+  libboost-graph-parallel1.67.0 libboost-graph1.58.0 libboost-graph1.65.1
+  libboost-graph1.67-dev libboost-graph1.67.0 libboost-iostreams-dev
+  libboost-iostreams1.65.1 libboost-iostreams1.67-dev libboost-locale-dev
+  libboost-locale1.58.0 libboost-locale1.65.1 libboost-locale1.67-dev
+  libboost-log-dev libboost-log1.58.0 libboost-log1.65.1 libboost-log1.67-dev
+  libboost-log1.67.0 libboost-math-dev libboost-math1.58.0 libboost-math1.65.1
+  libboost-math1.67-dev libboost-math1.67.0 libboost-mpi-dev
+  libboost-mpi-python1.65.1 libboost-mpi1.65.1 libboost-mpi1.67-dev
+  libboost-mpi1.67.0 libboost-numpy-dev libboost-numpy1.65.1
+  libboost-numpy1.67-dev libboost-numpy1.67.0 libboost-program-options-dev
+  libboost-program-options1.58.0 libboost-program-options1.65.1
+  libboost-program-options1.67-dev libboost-program-options1.67.0
+  libboost-python-dev libboost-python1.58.0 libboost-python1.65.1
+  libboost-python1.67-dev libboost-random-dev libboost-random1.58.0
+  libboost-random1.65.1 libboost-random1.67-dev libboost-random1.67.0
+  libboost-regex-dev libboost-regex1.58.0 libboost-regex1.65.1
+  libboost-regex1.67-dev libboost-regex1.67.0 libboost-serialization-dev
+  libboost-serialization1.58.0 libboost-serialization1.65.1
+  libboost-serialization1.67-dev libboost-serialization1.67.0
+  libboost-signals-dev libboost-signals1.58.0 libboost-signals1.65.1
+  libboost-signals1.67-dev libboost-signals1.67.0 libboost-stacktrace-dev
+  libboost-stacktrace1.65.1 libboost-stacktrace1.67-dev
+  libboost-stacktrace1.67.0 libboost-system-dev libboost-system1.65.1
+  libboost-system1.67-dev libboost-test-dev libboost-test1.58.0
+  libboost-test1.65.1 libboost-test1.67-dev libboost-test1.67.0
+  libboost-thread-dev libboost-thread1.58.0 libboost-thread1.65.1
+  libboost-thread1.67-dev libboost-timer-dev libboost-timer1.58.0
+  libboost-timer1.65.1 libboost-timer1.67-dev libboost-timer1.67.0
+  libboost-tools-dev libboost-type-erasure-dev libboost-type-erasure1.65.1
+  libboost-type-erasure1.67-dev libboost-type-erasure1.67.0 libboost-wave-dev
+  libboost-wave1.58.0 libboost-wave1.65.1 libboost-wave1.67-dev
+  libboost-wave1.67.0 libboost1.67-dev libboost1.67-tools-dev
+  libcairo-script-interpreter2 libcairo2-dev libcamel-1.2-61 libcapnp-0.5.3
+  libcdio17 libchromaprint0 libdns-export1100 libfribidi-dev
+  libgdk-pixbuf2.0-dev libgfortran3 libgfortran4 libglib2.0-dev
+  libglib2.0-dev-bin libgraphite2-dev libgtk2.0-dev libgtkglext1 libhardware2
+  libharfbuzz-dev libharfbuzz-gobject0 libhdf5-10 libhdf5-cpp-11 libhwloc-dev
+  libhybris libhybris-common1 libibverbs-dev libicu-dev libicu-le-hb-dev
+  libicu-le-hb0 libiculx60 libjasper-dev libjavascriptcoregtk-1.0-0 libllvm6.0
+  liblouis14 libmad0 libmagickcore-6.q16-3 libmagickcore-6.q16-3-extra
+  libmagickwand-6.q16-3 libmedia1 libmimic0 libmono-c5-1.1-cil
+  libmonoboehm-2.0-dev libmozjs-52-0 libmutter-2-0 libnss-myhostname
+  libnuma-dev libopencv-calib3d2.4v5 libopencv-contrib2.4v5
+  libopencv-core2.4v5 libopencv-features2d2.4v5 libopencv-flann2.4v5
+  libopencv-gpu2.4v5 libopencv-highgui2.4v5 libopencv-imgproc2.4v5
+  libopencv-legacy2.4v5 libopencv-ml2.4v5 libopencv-objdetect2.4v5
+  libopencv-ocl2.4v5 libopencv-photo2.4v5 libopencv-stitching2.4v5
+  libopencv-superres2.4v5 libopencv-ts2.4v5 libopencv-video2.4v5
+  libopencv-videostab2.4v5 libopencv2.4-jni libopenjpeg5 libopenmpi-dev
+  libopenmpi2 libpango1.0-dev libpcre3-dev libpcre32-3 libpcrecpp0v5
+  libpixman-1-dev libpoppler73 libpostproc-ffmpeg53 libpostproc54 libprocps6
+  libproj12 libprotoc9v5 libschroedinger-1.0-0 libsodium18 libsrtp0
+  libswresample-ffmpeg1 libswresample2 libswscale-ffmpeg3 libswscale4
+  libtinfo-dev libva1 libwebkit1.1-cil libwebkitgtk-1.0-0 libwebpdemux1
+  libwildmidi1 libx264-148 libx265-146 libx265-79 libxcb-render0-dev
+  libxcb-shm0-dev libxcomposite-dev libxcursor-dev libxdamage-dev
+  libxfixes-dev libxi-dev libxinerama-dev libxml2-utils libxrandr-dev
+  linux-headers-4.15.0-42 linux-headers-4.15.0-42-generic
+  linux-image-4.15.0-42-generic linux-modules-4.15.0-42-generic
+  linux-modules-extra-4.15.0-42-generic mpi-default-dev nplan
+  oxideqt-codecs-extra python3-oauth python3-zope.interface
+  snapd-login-service x11proto-composite-dev x11proto-damage-dev
+  x11proto-fixes-dev x11proto-randr-dev x11proto-xinerama-dev
+  xserver-xorg-input-evdev-hwe-16.04 xserver-xorg-input-synaptics-hwe-16.04
+  xserver-xorg-legacy-hwe-16.04 xserver-xorg-video-amdgpu-hwe-16.04
+  xserver-xorg-video-qxl-hwe-16.04 xserver-xorg-video-vesa-hwe-16.04
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  blt caffe-tools-cpu cython3 fonts-lyx libblosc1 libcaffe-cpu1 libgflags2.2
+  libgoogle-glog0v5 libjs-jquery-ui liblmdb0 python-matplotlib-data
+  python-tables-data python3-caffe-cpu python3-cloudpickle python3-cycler
+  python3-dateutil python3-decorator python3-gdal python3-gflags python3-h5py
+  python3-ipython python3-ipython-genutils python3-kiwisolver python3-leveldb
+  python3-matplotlib python3-networkx python3-nose python3-numexpr
+  python3-numpy python3-pandas python3-pandas-lib python3-pickleshare
+  python3-prompt-toolkit python3-pygments python3-pywt python3-scipy
+  python3-simplegeneric python3-skimage python3-skimage-lib python3-tables
+  python3-tables-lib python3-tk python3-traitlets python3-wcwidth tk8.6-blt2.5
+  ttf-bitstream-vera
+Suggested packages:
+  blt-demo libcaffe-cpu-dev caffe-doc cython-doc libjs-jquery-ui-docs
+  python-cycler-doc gdal-bin python-h5py-doc dvipng ffmpeg inkscape ipython3
+  python-matplotlib-doc python3-cairocffi python3-gobject python3-pyqt4
+  python3-sip python3-tornado texlive-extra-utils texlive-latex-extra
+  ttf-staypuft python-nose-doc gfortran python-numpy-doc python3-numpy-dbg
+  python-pandas-doc python-pygments-doc python-scipy-doc python-skimage-doc
+  python-tables-doc python3-netcdf4 vitables tix python3-tk-dbg
+The following NEW packages will be installed:
+  blt caffe-cpu caffe-tools-cpu cython3 fonts-lyx libblosc1 libcaffe-cpu1
+  libgflags2.2 libgoogle-glog0v5 libjs-jquery-ui liblmdb0
+  python-matplotlib-data python-tables-data python3-caffe-cpu
+  python3-cloudpickle python3-cycler python3-dateutil python3-decorator
+  python3-gdal python3-gflags python3-h5py python3-ipython
+  python3-ipython-genutils python3-kiwisolver python3-leveldb
+  python3-matplotlib python3-networkx python3-nose python3-numexpr
+  python3-numpy python3-pandas python3-pandas-lib python3-pickleshare
+  python3-prompt-toolkit python3-pygments python3-pywt python3-scipy
+  python3-simplegeneric python3-skimage python3-skimage-lib python3-tables
+  python3-tables-lib python3-tk python3-traitlets python3-wcwidth tk8.6-blt2.5
+  ttf-bitstream-vera
+0 upgraded, 47 newly installed, 0 to remove and 0 not upgraded.
+Need to get 65.6 MB of archives.
+After this operation, 275 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://us.archive.ubuntu.com/ubuntu cosmic/main amd64 tk8.6-blt2.5 amd64 2.5.3+dfsg-4 [572 kB]
+Get:2 http://us.archive.ubuntu.com/ubuntu cosmic/main amd64 blt amd64 2.5.3+dfsg-4 [4,944 B]
+Get:3 http://us.archive.ubuntu.com/ubuntu cosmic/universe amd64 libgflags2.2 amd64 2.2.1-1 [72.4 kB]
+Get:4 http://us.archive.ubuntu.com/ubuntu cosmic/universe amd64 libgoogle-glog0v5 amd64 0.3.5-1 [50.5 kB]
+Get:5 http://us.archive.ubuntu.com/ubuntu cosmic/universe amd64 liblmdb0 amd64 0.9.22-1 [44.3 kB]
+Get:6 http://us.archive.ubuntu.com/ubuntu cosmic/universe amd64 libcaffe-cpu1 amd64 1.0.0-8ubuntu1 [807 kB]
+Get:7 http://us.archive.ubuntu.com/ubuntu cosmic/universe amd64 caffe-tools-cpu amd64 1.0.0-8ubuntu1 [1,459 kB]
+Get:8 http://us.archive.ubuntu.com/ubuntu cosmic/universe amd64 cython3 amd64 0.28.4-1 [3,165 kB]
+Get:9 http://us.archive.ubuntu.com/ubuntu cosmic/main amd64 python3-dateutil all 2.6.1-1 [52.3 kB]
+Get:10 http://us.archive.ubuntu.com/ubuntu cosmic/universe amd64 python3-gflags all 1.5.1-5 [35.6 kB]
+Get:11 http://us.archive.ubuntu.com/ubuntu cosmic/main amd64 python3-numpy amd64 1:1.14.5-1ubuntu4 [2,231 kB]
+Get:12 http://us.archive.ubuntu.com/ubuntu cosmic/universe amd64 python3-h5py amd64 2.8.0-1 [1,014 kB]
+Get:13 http://us.archive.ubuntu.com/ubuntu cosmic/main amd64 python3-decorator all 4.3.0-1 [9,428 B]
+Get:14 http://us.archive.ubuntu.com/ubuntu cosmic/universe amd64 python3-pickleshare all 0.7.4-4 [7,320 B]
+Get:15 http://us.archive.ubuntu.com/ubuntu cosmic/universe amd64 python3-wcwidth all 0.1.7+dfsg1-2 [15.0 kB]
+Get:16 http://us.archive.ubuntu.com/ubuntu cosmic/universe amd64 python3-prompt-toolkit all 1.0.15-1 [163 kB]
+Get:17 http://us.archive.ubuntu.com/ubuntu cosmic/main amd64 python3-pygments all 2.2.0+dfsg-2 [574 kB]
+Get:18 http://us.archive.ubuntu.com/ubuntu cosmic/universe amd64 python3-simplegeneric all 0.8.1-2 [11.2 kB]
+Get:19 http://us.archive.ubuntu.com/ubuntu cosmic/universe amd64 python3-ipython-genutils all 0.2.0-1 [20.9 kB]
+Get:20 http://us.archive.ubuntu.com/ubuntu cosmic/universe amd64 python3-traitlets all 4.3.2-1 [59.1 kB]
+Get:21 http://us.archive.ubuntu.com/ubuntu cosmic/universe amd64 python3-ipython all 5.5.0-1 [381 kB]
+Get:22 http://us.archive.ubuntu.com/ubuntu cosmic/universe amd64 python3-leveldb amd64 0~svn68-3build4 [18.6 kB]
+Get:23 http://us.archive.ubuntu.com/ubuntu cosmic/universe amd64 fonts-lyx all 2.3.0-2 [154 kB]
+Get:24 http://us.archive.ubuntu.com/ubuntu cosmic/universe amd64 ttf-bitstream-vera all 1.10-8 [352 kB]
+Get:25 http://us.archive.ubuntu.com/ubuntu cosmic/universe amd64 python-matplotlib-data all 2.2.2-4build1 [3,775 kB]
+Get:26 http://us.archive.ubuntu.com/ubuntu cosmic/universe amd64 libjs-jquery-ui all 1.12.1+dfsg-5 [232 kB]
+Get:27 http://us.archive.ubuntu.com/ubuntu cosmic/universe amd64 python3-cycler all 0.10.0-1 [7,622 B]
+Get:28 http://us.archive.ubuntu.com/ubuntu cosmic/universe amd64 python3-kiwisolver amd64 1.0.1-2build1 [64.7 kB]
+Get:29 http://us.archive.ubuntu.com/ubuntu cosmic/universe amd64 python3-matplotlib amd64 2.2.2-4build1 [4,227 kB]
+Get:30 http://us.archive.ubuntu.com/ubuntu cosmic/universe amd64 python3-networkx all 2.1-1ubuntu2 [757 kB]
+Get:31 http://us.archive.ubuntu.com/ubuntu cosmic/universe amd64 python3-nose all 1.3.7-4 [116 kB]
+Get:32 http://us.archive.ubuntu.com/ubuntu cosmic/universe amd64 python3-pandas-lib amd64 0.23.3-1fakesync1ubuntu1 [5,709 kB]
+Get:33 http://us.archive.ubuntu.com/ubuntu cosmic/universe amd64 python3-pandas all 0.23.3-1fakesync1ubuntu1 [1,729 kB]
+Get:34 http://us.archive.ubuntu.com/ubuntu cosmic/universe amd64 python3-scipy amd64 1.1.0-1ubuntu1 [11.5 MB]
+Get:35 http://us.archive.ubuntu.com/ubuntu cosmic/universe amd64 python3-skimage-lib amd64 0.14.0-0ubuntu4 [2,844 kB]
+Get:36 http://us.archive.ubuntu.com/ubuntu cosmic/universe amd64 python3-cloudpickle all 0.5.2-2 [14.9 kB]
+Get:37 http://us.archive.ubuntu.com/ubuntu cosmic/universe amd64 python3-pywt amd64 0.5.1-1.1ubuntu5 [1,097 kB]
+Get:38 http://us.archive.ubuntu.com/ubuntu cosmic/universe amd64 python3-skimage all 0.14.0-0ubuntu4 [19.9 MB]
+Get:39 http://us.archive.ubuntu.com/ubuntu cosmic/universe amd64 python3-caffe-cpu amd64 1.0.0-8ubuntu1 [685 kB]
+Get:40 http://us.archive.ubuntu.com/ubuntu cosmic/universe amd64 caffe-cpu amd64 1.0.0-8ubuntu1 [4,556 B]
+Get:41 http://us.archive.ubuntu.com/ubuntu cosmic/universe amd64 libblosc1 amd64 1.14.3+ds1-1 [30.9 kB]
+Get:42 http://us.archive.ubuntu.com/ubuntu cosmic/universe amd64 python-tables-data all 3.4.4-1build1 [46.1 kB]
+Get:43 http://us.archive.ubuntu.com/ubuntu cosmic/universe amd64 python3-gdal amd64 2.3.2+dfsg-2 [363 kB]
+Get:44 http://us.archive.ubuntu.com/ubuntu cosmic/universe amd64 python3-numexpr amd64 2.6.5-1build1 [126 kB]
+Get:45 http://us.archive.ubuntu.com/ubuntu cosmic/universe amd64 python3-tables-lib amd64 3.4.4-1build1 [641 kB]
+Get:46 http://us.archive.ubuntu.com/ubuntu cosmic/universe amd64 python3-tables all 3.4.4-1build1 [333 kB]
+Get:47 http://us.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 python3-tk amd64 3.6.7-1~18.10 [101 kB]
+Fetched 65.6 MB in 17s (3,971 kB/s)                                            
+Extracting templates from packages: 100%
+Selecting previously unselected package tk8.6-blt2.5.
+(Reading database ... 273863 files and directories currently installed.)
+Preparing to unpack .../00-tk8.6-blt2.5_2.5.3+dfsg-4_amd64.deb ...
+Unpacking tk8.6-blt2.5 (2.5.3+dfsg-4) ...
+Selecting previously unselected package blt.
+Preparing to unpack .../01-blt_2.5.3+dfsg-4_amd64.deb ...
+Unpacking blt (2.5.3+dfsg-4) ...
+Selecting previously unselected package libgflags2.2.
+Preparing to unpack .../02-libgflags2.2_2.2.1-1_amd64.deb ...
+Unpacking libgflags2.2 (2.2.1-1) ...
+Selecting previously unselected package libgoogle-glog0v5.
+Preparing to unpack .../03-libgoogle-glog0v5_0.3.5-1_amd64.deb ...
+Unpacking libgoogle-glog0v5 (0.3.5-1) ...
+Selecting previously unselected package liblmdb0:amd64.
+Preparing to unpack .../04-liblmdb0_0.9.22-1_amd64.deb ...
+Unpacking liblmdb0:amd64 (0.9.22-1) ...
+Selecting previously unselected package libcaffe-cpu1:amd64.
+Preparing to unpack .../05-libcaffe-cpu1_1.0.0-8ubuntu1_amd64.deb ...
+Unpacking libcaffe-cpu1:amd64 (1.0.0-8ubuntu1) ...
+Selecting previously unselected package caffe-tools-cpu.
+Preparing to unpack .../06-caffe-tools-cpu_1.0.0-8ubuntu1_amd64.deb ...
+Unpacking caffe-tools-cpu (1.0.0-8ubuntu1) ...
+Selecting previously unselected package cython3.
+Preparing to unpack .../07-cython3_0.28.4-1_amd64.deb ...
+Unpacking cython3 (0.28.4-1) ...
+Selecting previously unselected package python3-dateutil.
+Preparing to unpack .../08-python3-dateutil_2.6.1-1_all.deb ...
+Unpacking python3-dateutil (2.6.1-1) ...
+Selecting previously unselected package python3-gflags.
+Preparing to unpack .../09-python3-gflags_1.5.1-5_all.deb ...
+Unpacking python3-gflags (1.5.1-5) ...
+Selecting previously unselected package python3-numpy.
+Preparing to unpack .../10-python3-numpy_1%3a1.14.5-1ubuntu4_amd64.deb ...
+Unpacking python3-numpy (1:1.14.5-1ubuntu4) ...
+Selecting previously unselected package python3-h5py.
+Preparing to unpack .../11-python3-h5py_2.8.0-1_amd64.deb ...
+Unpacking python3-h5py (2.8.0-1) ...
+Selecting previously unselected package python3-decorator.
+Preparing to unpack .../12-python3-decorator_4.3.0-1_all.deb ...
+Unpacking python3-decorator (4.3.0-1) ...
+Selecting previously unselected package python3-pickleshare.
+Preparing to unpack .../13-python3-pickleshare_0.7.4-4_all.deb ...
+Unpacking python3-pickleshare (0.7.4-4) ...
+Selecting previously unselected package python3-wcwidth.
+Preparing to unpack .../14-python3-wcwidth_0.1.7+dfsg1-2_all.deb ...
+Unpacking python3-wcwidth (0.1.7+dfsg1-2) ...
+Selecting previously unselected package python3-prompt-toolkit.
+Preparing to unpack .../15-python3-prompt-toolkit_1.0.15-1_all.deb ...
+Unpacking python3-prompt-toolkit (1.0.15-1) ...
+Selecting previously unselected package python3-pygments.
+Preparing to unpack .../16-python3-pygments_2.2.0+dfsg-2_all.deb ...
+Unpacking python3-pygments (2.2.0+dfsg-2) ...
+Selecting previously unselected package python3-simplegeneric.
+Preparing to unpack .../17-python3-simplegeneric_0.8.1-2_all.deb ...
+Unpacking python3-simplegeneric (0.8.1-2) ...
+Selecting previously unselected package python3-ipython-genutils.
+Preparing to unpack .../18-python3-ipython-genutils_0.2.0-1_all.deb ...
+Unpacking python3-ipython-genutils (0.2.0-1) ...
+Selecting previously unselected package python3-traitlets.
+Preparing to unpack .../19-python3-traitlets_4.3.2-1_all.deb ...
+Unpacking python3-traitlets (4.3.2-1) ...
+Selecting previously unselected package python3-ipython.
+Preparing to unpack .../20-python3-ipython_5.5.0-1_all.deb ...
+Unpacking python3-ipython (5.5.0-1) ...
+Selecting previously unselected package python3-leveldb.
+Preparing to unpack .../21-python3-leveldb_0~svn68-3build4_amd64.deb ...
+Unpacking python3-leveldb (0~svn68-3build4) ...
+Selecting previously unselected package fonts-lyx.
+Preparing to unpack .../22-fonts-lyx_2.3.0-2_all.deb ...
+Unpacking fonts-lyx (2.3.0-2) ...
+Selecting previously unselected package ttf-bitstream-vera.
+Preparing to unpack .../23-ttf-bitstream-vera_1.10-8_all.deb ...
+Unpacking ttf-bitstream-vera (1.10-8) ...
+Selecting previously unselected package python-matplotlib-data.
+Preparing to unpack .../24-python-matplotlib-data_2.2.2-4build1_all.deb ...
+Unpacking python-matplotlib-data (2.2.2-4build1) ...
+Selecting previously unselected package libjs-jquery-ui.
+Preparing to unpack .../25-libjs-jquery-ui_1.12.1+dfsg-5_all.deb ...
+Unpacking libjs-jquery-ui (1.12.1+dfsg-5) ...
+Selecting previously unselected package python3-cycler.
+Preparing to unpack .../26-python3-cycler_0.10.0-1_all.deb ...
+Unpacking python3-cycler (0.10.0-1) ...
+Selecting previously unselected package python3-kiwisolver.
+Preparing to unpack .../27-python3-kiwisolver_1.0.1-2build1_amd64.deb ...
+Unpacking python3-kiwisolver (1.0.1-2build1) ...
+Selecting previously unselected package python3-matplotlib.
+Preparing to unpack .../28-python3-matplotlib_2.2.2-4build1_amd64.deb ...
+Unpacking python3-matplotlib (2.2.2-4build1) ...
+Selecting previously unselected package python3-networkx.
+Preparing to unpack .../29-python3-networkx_2.1-1ubuntu2_all.deb ...
+Unpacking python3-networkx (2.1-1ubuntu2) ...
+Selecting previously unselected package python3-nose.
+Preparing to unpack .../30-python3-nose_1.3.7-4_all.deb ...
+Unpacking python3-nose (1.3.7-4) ...
+Selecting previously unselected package python3-pandas-lib.
+Preparing to unpack .../31-python3-pandas-lib_0.23.3-1fakesync1ubuntu1_amd64.deb ...
+Unpacking python3-pandas-lib (0.23.3-1fakesync1ubuntu1) ...
+Selecting previously unselected package python3-pandas.
+Preparing to unpack .../32-python3-pandas_0.23.3-1fakesync1ubuntu1_all.deb ...
+Unpacking python3-pandas (0.23.3-1fakesync1ubuntu1) ...
+Selecting previously unselected package python3-scipy.
+Preparing to unpack .../33-python3-scipy_1.1.0-1ubuntu1_amd64.deb ...
+Unpacking python3-scipy (1.1.0-1ubuntu1) ...
+Selecting previously unselected package python3-skimage-lib:amd64.
+Preparing to unpack .../34-python3-skimage-lib_0.14.0-0ubuntu4_amd64.deb ...
+Unpacking python3-skimage-lib:amd64 (0.14.0-0ubuntu4) ...
+Selecting previously unselected package python3-cloudpickle.
+Preparing to unpack .../35-python3-cloudpickle_0.5.2-2_all.deb ...
+Unpacking python3-cloudpickle (0.5.2-2) ...
+Selecting previously unselected package python3-pywt.
+Preparing to unpack .../36-python3-pywt_0.5.1-1.1ubuntu5_amd64.deb ...
+Unpacking python3-pywt (0.5.1-1.1ubuntu5) ...
+Selecting previously unselected package python3-skimage.
+Preparing to unpack .../37-python3-skimage_0.14.0-0ubuntu4_all.deb ...
+Unpacking python3-skimage (0.14.0-0ubuntu4) ...
+Selecting previously unselected package python3-caffe-cpu.
+Preparing to unpack .../38-python3-caffe-cpu_1.0.0-8ubuntu1_amd64.deb ...
+Unpacking python3-caffe-cpu (1.0.0-8ubuntu1) ...
+Selecting previously unselected package caffe-cpu.
+Preparing to unpack .../39-caffe-cpu_1.0.0-8ubuntu1_amd64.deb ...
+Unpacking caffe-cpu (1.0.0-8ubuntu1) ...
+Selecting previously unselected package libblosc1.
+Preparing to unpack .../40-libblosc1_1.14.3+ds1-1_amd64.deb ...
+Unpacking libblosc1 (1.14.3+ds1-1) ...
+Selecting previously unselected package python-tables-data.
+Preparing to unpack .../41-python-tables-data_3.4.4-1build1_all.deb ...
+Unpacking python-tables-data (3.4.4-1build1) ...
+Selecting previously unselected package python3-gdal.
+Preparing to unpack .../42-python3-gdal_2.3.2+dfsg-2_amd64.deb ...
+Unpacking python3-gdal (2.3.2+dfsg-2) ...
+Selecting previously unselected package python3-numexpr.
+Preparing to unpack .../43-python3-numexpr_2.6.5-1build1_amd64.deb ...
+Unpacking python3-numexpr (2.6.5-1build1) ...
+Selecting previously unselected package python3-tables-lib.
+Preparing to unpack .../44-python3-tables-lib_3.4.4-1build1_amd64.deb ...
+Unpacking python3-tables-lib (3.4.4-1build1) ...
+Selecting previously unselected package python3-tables.
+Preparing to unpack .../45-python3-tables_3.4.4-1build1_all.deb ...
+Unpacking python3-tables (3.4.4-1build1) ...
+Selecting previously unselected package python3-tk:amd64.
+Preparing to unpack .../46-python3-tk_3.6.7-1~18.10_amd64.deb ...
+Unpacking python3-tk:amd64 (3.6.7-1~18.10) ...
+Setting up libblosc1 (1.14.3+ds1-1) ...
+Setting up python3-pickleshare (0.7.4-4) ...
+Setting up libgflags2.2 (2.2.1-1) ...
+Setting up python3-simplegeneric (0.8.1-2) ...
+Setting up python3-kiwisolver (1.0.1-2build1) ...
+Setting up liblmdb0:amd64 (0.9.22-1) ...
+Setting up python3-cloudpickle (0.5.2-2) ...
+Setting up python3-numpy (1:1.14.5-1ubuntu4) ...
+Setting up python3-cycler (0.10.0-1) ...
+Setting up python-tables-data (3.4.4-1build1) ...
+Setting up python3-gflags (1.5.1-5) ...
+update-alternatives: using /usr/bin/python3-gflags2man to provide /usr/bin/gflags2man (gflags2man) in auto mode
+Setting up python3-skimage-lib:amd64 (0.14.0-0ubuntu4) ...
+Setting up python3-pandas-lib (0.23.3-1fakesync1ubuntu1) ...
+Setting up python3-wcwidth (0.1.7+dfsg1-2) ...
+Setting up python3-gdal (2.3.2+dfsg-2) ...
+Processing triggers for libc-bin (2.28-0ubuntu1) ...
+Setting up python3-ipython-genutils (0.2.0-1) ...
+Setting up python3-nose (1.3.7-4) ...
+Setting up libgoogle-glog0v5 (0.3.5-1) ...
+Setting up tk8.6-blt2.5 (2.5.3+dfsg-4) ...
+Setting up libjs-jquery-ui (1.12.1+dfsg-5) ...
+Setting up ttf-bitstream-vera (1.10-8) ...
+Processing triggers for man-db (2.8.4-2) ...
+Setting up cython3 (0.28.4-1) ...
+Setting up python3-pywt (0.5.1-1.1ubuntu5) ...
+Setting up python3-decorator (4.3.0-1) ...
+Setting up python3-traitlets (4.3.2-1) ...
+Setting up python3-leveldb (0~svn68-3build4) ...
+Processing triggers for fontconfig (2.13.0-5ubuntu3) ...
+Setting up python3-dateutil (2.6.1-1) ...
+Setting up blt (2.5.3+dfsg-4) ...
+Setting up python3-h5py (2.8.0-1) ...
+Setting up fonts-lyx (2.3.0-2) ...
+Setting up python3-pygments (2.2.0+dfsg-2) ...
+Setting up python3-scipy (1.1.0-1ubuntu1) ...
+Setting up python3-prompt-toolkit (1.0.15-1) ...
+Setting up python3-tables-lib (3.4.4-1build1) ...
+Setting up python-matplotlib-data (2.2.2-4build1) ...
+Setting up python3-ipython (5.5.0-1) ...
+Setting up python3-numexpr (2.6.5-1build1) ...
+Setting up python3-tables (3.4.4-1build1) ...
+Setting up libcaffe-cpu1:amd64 (1.0.0-8ubuntu1) ...
+Setting up python3-networkx (2.1-1ubuntu2) ...
+Setting up caffe-tools-cpu (1.0.0-8ubuntu1) ...
+Setting up python3-tk:amd64 (3.6.7-1~18.10) ...
+Setting up python3-pandas (0.23.3-1fakesync1ubuntu1) ...
+Setting up python3-matplotlib (2.2.2-4build1) ...
+Setting up python3-skimage (0.14.0-0ubuntu4) ...
+Setting up python3-caffe-cpu (1.0.0-8ubuntu1) ...
+Setting up caffe-cpu (1.0.0-8ubuntu1) ...
+Processing triggers for libc-bin (2.28-0ubuntu1) ...
+gzd@X230:~$ sudo apt remove caffe-cpu
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  caffe-tools-cpu cython3 flashplugin-installer g++-7 gir1.2-gtk-2.0
+  gir1.2-harfbuzz-0.0 gir1.2-mutter-2 icu-devtools libargon2-0 libarmadillo8
+  libass5 libatk1.0-dev libavcodec-ffmpeg56 libavcodec57 libavfilter-ffmpeg5
+  libavfilter6 libavformat-ffmpeg56 libavformat57 libavresample-ffmpeg2
+  libavresample3 libavutil-ffmpeg54 libavutil55 libblosc1 libbluray1
+  libboost-atomic-dev libboost-atomic1.58.0 libboost-atomic1.65.1
+  libboost-atomic1.67-dev libboost-atomic1.67.0 libboost-chrono-dev
+  libboost-chrono1.58.0 libboost-chrono1.65.1 libboost-chrono1.67-dev
+  libboost-chrono1.67.0 libboost-container-dev libboost-container1.65.1
+  libboost-container1.67-dev libboost-container1.67.0 libboost-context-dev
+  libboost-context1.58.0 libboost-context1.65.1 libboost-context1.67-dev
+  libboost-context1.67.0 libboost-coroutine-dev libboost-coroutine1.58.0
+  libboost-coroutine1.65.1 libboost-coroutine1.67-dev libboost-coroutine1.67.0
+  libboost-date-time-dev libboost-date-time1.65.1 libboost-date-time1.67-dev
+  libboost-dev libboost-exception-dev libboost-exception1.67-dev
+  libboost-fiber-dev libboost-fiber1.65.1 libboost-fiber1.67-dev
+  libboost-fiber1.67.0 libboost-filesystem-dev libboost-filesystem1.65.1
+  libboost-filesystem1.67-dev libboost-graph-dev libboost-graph-parallel-dev
+  libboost-graph-parallel1.65.1 libboost-graph-parallel1.67-dev
+  libboost-graph-parallel1.67.0 libboost-graph1.58.0 libboost-graph1.65.1
+  libboost-graph1.67-dev libboost-graph1.67.0 libboost-iostreams-dev
+  libboost-iostreams1.65.1 libboost-iostreams1.67-dev libboost-locale-dev
+  libboost-locale1.58.0 libboost-locale1.65.1 libboost-locale1.67-dev
+  libboost-log-dev libboost-log1.58.0 libboost-log1.65.1 libboost-log1.67-dev
+  libboost-log1.67.0 libboost-math-dev libboost-math1.58.0 libboost-math1.65.1
+  libboost-math1.67-dev libboost-math1.67.0 libboost-mpi-dev
+  libboost-mpi-python1.65.1 libboost-mpi1.65.1 libboost-mpi1.67-dev
+  libboost-mpi1.67.0 libboost-numpy-dev libboost-numpy1.65.1
+  libboost-numpy1.67-dev libboost-numpy1.67.0 libboost-program-options-dev
+  libboost-program-options1.58.0 libboost-program-options1.65.1
+  libboost-program-options1.67-dev libboost-program-options1.67.0
+  libboost-python-dev libboost-python1.58.0 libboost-python1.65.1
+  libboost-python1.67-dev libboost-python1.67.0 libboost-random-dev
+  libboost-random1.58.0 libboost-random1.65.1 libboost-random1.67-dev
+  libboost-random1.67.0 libboost-regex-dev libboost-regex1.58.0
+  libboost-regex1.65.1 libboost-regex1.67-dev libboost-regex1.67.0
+  libboost-serialization-dev libboost-serialization1.58.0
+  libboost-serialization1.65.1 libboost-serialization1.67-dev
+  libboost-serialization1.67.0 libboost-signals-dev libboost-signals1.58.0
+  libboost-signals1.65.1 libboost-signals1.67-dev libboost-signals1.67.0
+  libboost-stacktrace-dev libboost-stacktrace1.65.1
+  libboost-stacktrace1.67-dev libboost-stacktrace1.67.0 libboost-system-dev
+  libboost-system1.65.1 libboost-system1.67-dev libboost-test-dev
+  libboost-test1.58.0 libboost-test1.65.1 libboost-test1.67-dev
+  libboost-test1.67.0 libboost-thread-dev libboost-thread1.58.0
+  libboost-thread1.65.1 libboost-thread1.67-dev libboost-timer-dev
+  libboost-timer1.58.0 libboost-timer1.65.1 libboost-timer1.67-dev
+  libboost-timer1.67.0 libboost-tools-dev libboost-type-erasure-dev
+  libboost-type-erasure1.65.1 libboost-type-erasure1.67-dev
+  libboost-type-erasure1.67.0 libboost-wave-dev libboost-wave1.58.0
+  libboost-wave1.65.1 libboost-wave1.67-dev libboost-wave1.67.0
+  libboost1.67-dev libboost1.67-tools-dev libcaffe-cpu1
+  libcairo-script-interpreter2 libcairo2-dev libcamel-1.2-61 libcapnp-0.5.3
+  libcdio17 libchromaprint0 libdns-export1100 libfribidi-dev
+  libgdk-pixbuf2.0-dev libgflags2.2 libgfortran3 libgfortran4 libglib2.0-dev
+  libglib2.0-dev-bin libgoogle-glog0v5 libgraphite2-dev libgtk2.0-dev
+  libgtkglext1 libhardware2 libharfbuzz-dev libharfbuzz-gobject0 libhdf5-10
+  libhdf5-cpp-11 libhwloc-dev libhybris libhybris-common1 libibverbs-dev
+  libicu-dev libicu-le-hb-dev libicu-le-hb0 libiculx60 libjasper-dev
+  libjavascriptcoregtk-1.0-0 libjs-jquery-ui libllvm6.0 liblmdb0 liblouis14
+  libmad0 libmagickcore-6.q16-3 libmagickcore-6.q16-3-extra
+  libmagickwand-6.q16-3 libmedia1 libmimic0 libmono-c5-1.1-cil
+  libmonoboehm-2.0-dev libmozjs-52-0 libmutter-2-0 libnss-myhostname
+  libnuma-dev libopencv-calib3d2.4v5 libopencv-contrib2.4v5
+  libopencv-core2.4v5 libopencv-features2d2.4v5 libopencv-flann2.4v5
+  libopencv-gpu2.4v5 libopencv-highgui2.4v5 libopencv-imgproc2.4v5
+  libopencv-legacy2.4v5 libopencv-ml2.4v5 libopencv-objdetect2.4v5
+  libopencv-ocl2.4v5 libopencv-photo2.4v5 libopencv-stitching2.4v5
+  libopencv-superres2.4v5 libopencv-ts2.4v5 libopencv-video2.4v5
+  libopencv-videostab2.4v5 libopencv2.4-jni libopenjpeg5 libopenmpi-dev
+  libopenmpi2 libpango1.0-dev libpcre3-dev libpcre32-3 libpcrecpp0v5
+  libpixman-1-dev libpoppler73 libpostproc-ffmpeg53 libpostproc54 libprocps6
+  libproj12 libprotoc9v5 libpython3-dev libpython3.6-dev libschroedinger-1.0-0
+  libsodium18 libsrtp0 libstdc++-7-dev libswresample-ffmpeg1 libswresample2
+  libswscale-ffmpeg3 libswscale4 libtinfo-dev libva1 libwebkit1.1-cil
+  libwebkitgtk-1.0-0 libwebpdemux1 libwildmidi1 libx264-148 libx265-146
+  libx265-79 libxcb-render0-dev libxcb-shm0-dev libxcomposite-dev
+  libxcursor-dev libxdamage-dev libxfixes-dev libxi-dev libxinerama-dev
+  libxml2-utils libxrandr-dev linux-headers-4.15.0-42
+  linux-headers-4.15.0-42-generic linux-image-4.15.0-42-generic
+  linux-modules-4.15.0-42-generic linux-modules-extra-4.15.0-42-generic
+  mpi-default-dev nplan oxideqt-codecs-extra python-matplotlib-data
+  python-tables-data python3-caffe-cpu python3-cloudpickle python3-cycler
+  python3-dateutil python3-decorator python3-dev python3-gdal python3-gflags
+  python3-h5py python3-ipython python3-ipython-genutils python3-kiwisolver
+  python3-leveldb python3-matplotlib python3-networkx python3-nose
+  python3-numexpr python3-numpy python3-oauth python3-pandas
+  python3-pandas-lib python3-pickleshare python3-prompt-toolkit
+  python3-pygments python3-pywt python3-scipy python3-simplegeneric
+  python3-skimage python3-skimage-lib python3-tables python3-tables-lib
+  python3-traitlets python3-wcwidth python3-zope.interface python3.6-dev
+  snapd-login-service x11proto-composite-dev x11proto-damage-dev
+  x11proto-fixes-dev x11proto-randr-dev x11proto-xinerama-dev
+  xserver-xorg-input-evdev-hwe-16.04 xserver-xorg-input-synaptics-hwe-16.04
+  xserver-xorg-legacy-hwe-16.04 xserver-xorg-video-amdgpu-hwe-16.04
+  xserver-xorg-video-qxl-hwe-16.04 xserver-xorg-video-vesa-hwe-16.04
+Use 'sudo apt autoremove' to remove them.
+The following packages will be REMOVED:
+  caffe-cpu
+0 upgraded, 0 newly installed, 1 to remove and 0 not upgraded.
+After this operation, 20.5 kB disk space will be freed.
+Do you want to continue? [Y/n] n
+Abort.
+gzd@X230:~$ sudo apt install caffe-cpu
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+caffe-cpu is already the newest version (1.0.0-8ubuntu1).
+The following packages were automatically installed and are no longer required:
+  flashplugin-installer gir1.2-gtk-2.0 gir1.2-harfbuzz-0.0 gir1.2-mutter-2
+  icu-devtools libargon2-0 libarmadillo8 libass5 libatk1.0-dev
+  libavcodec-ffmpeg56 libavcodec57 libavfilter-ffmpeg5 libavfilter6
+  libavformat-ffmpeg56 libavformat57 libavresample-ffmpeg2 libavresample3
+  libavutil-ffmpeg54 libavutil55 libbluray1 libboost-atomic-dev
+  libboost-atomic1.58.0 libboost-atomic1.65.1 libboost-atomic1.67-dev
+  libboost-atomic1.67.0 libboost-chrono-dev libboost-chrono1.58.0
+  libboost-chrono1.65.1 libboost-chrono1.67-dev libboost-chrono1.67.0
+  libboost-container-dev libboost-container1.65.1 libboost-container1.67-dev
+  libboost-container1.67.0 libboost-context-dev libboost-context1.58.0
+  libboost-context1.65.1 libboost-context1.67-dev libboost-context1.67.0
+  libboost-coroutine-dev libboost-coroutine1.58.0 libboost-coroutine1.65.1
+  libboost-coroutine1.67-dev libboost-coroutine1.67.0 libboost-date-time-dev
+  libboost-date-time1.65.1 libboost-date-time1.67-dev libboost-dev
+  libboost-exception-dev libboost-exception1.67-dev libboost-fiber-dev
+  libboost-fiber1.65.1 libboost-fiber1.67-dev libboost-fiber1.67.0
+  libboost-filesystem-dev libboost-filesystem1.65.1
+  libboost-filesystem1.67-dev libboost-graph-dev libboost-graph-parallel-dev
+  libboost-graph-parallel1.65.1 libboost-graph-parallel1.67-dev
+  libboost-graph-parallel1.67.0 libboost-graph1.58.0 libboost-graph1.65.1
+  libboost-graph1.67-dev libboost-graph1.67.0 libboost-iostreams-dev
+  libboost-iostreams1.65.1 libboost-iostreams1.67-dev libboost-locale-dev
+  libboost-locale1.58.0 libboost-locale1.65.1 libboost-locale1.67-dev
+  libboost-log-dev libboost-log1.58.0 libboost-log1.65.1 libboost-log1.67-dev
+  libboost-log1.67.0 libboost-math-dev libboost-math1.58.0 libboost-math1.65.1
+  libboost-math1.67-dev libboost-math1.67.0 libboost-mpi-dev
+  libboost-mpi-python1.65.1 libboost-mpi1.65.1 libboost-mpi1.67-dev
+  libboost-mpi1.67.0 libboost-numpy-dev libboost-numpy1.65.1
+  libboost-numpy1.67-dev libboost-numpy1.67.0 libboost-program-options-dev
+  libboost-program-options1.58.0 libboost-program-options1.65.1
+  libboost-program-options1.67-dev libboost-program-options1.67.0
+  libboost-python-dev libboost-python1.58.0 libboost-python1.65.1
+  libboost-python1.67-dev libboost-random-dev libboost-random1.58.0
+  libboost-random1.65.1 libboost-random1.67-dev libboost-random1.67.0
+  libboost-regex-dev libboost-regex1.58.0 libboost-regex1.65.1
+  libboost-regex1.67-dev libboost-regex1.67.0 libboost-serialization-dev
+  libboost-serialization1.58.0 libboost-serialization1.65.1
+  libboost-serialization1.67-dev libboost-serialization1.67.0
+  libboost-signals-dev libboost-signals1.58.0 libboost-signals1.65.1
+  libboost-signals1.67-dev libboost-signals1.67.0 libboost-stacktrace-dev
+  libboost-stacktrace1.65.1 libboost-stacktrace1.67-dev
+  libboost-stacktrace1.67.0 libboost-system-dev libboost-system1.65.1
+  libboost-system1.67-dev libboost-test-dev libboost-test1.58.0
+  libboost-test1.65.1 libboost-test1.67-dev libboost-test1.67.0
+  libboost-thread-dev libboost-thread1.58.0 libboost-thread1.65.1
+  libboost-thread1.67-dev libboost-timer-dev libboost-timer1.58.0
+  libboost-timer1.65.1 libboost-timer1.67-dev libboost-timer1.67.0
+  libboost-tools-dev libboost-type-erasure-dev libboost-type-erasure1.65.1
+  libboost-type-erasure1.67-dev libboost-type-erasure1.67.0 libboost-wave-dev
+  libboost-wave1.58.0 libboost-wave1.65.1 libboost-wave1.67-dev
+  libboost-wave1.67.0 libboost1.67-dev libboost1.67-tools-dev
+  libcairo-script-interpreter2 libcairo2-dev libcamel-1.2-61 libcapnp-0.5.3
+  libcdio17 libchromaprint0 libdns-export1100 libfribidi-dev
+  libgdk-pixbuf2.0-dev libgfortran3 libgfortran4 libglib2.0-dev
+  libglib2.0-dev-bin libgraphite2-dev libgtk2.0-dev libgtkglext1 libhardware2
+  libharfbuzz-dev libharfbuzz-gobject0 libhdf5-10 libhdf5-cpp-11 libhwloc-dev
+  libhybris libhybris-common1 libibverbs-dev libicu-dev libicu-le-hb-dev
+  libicu-le-hb0 libiculx60 libjasper-dev libjavascriptcoregtk-1.0-0 libllvm6.0
+  liblouis14 libmad0 libmagickcore-6.q16-3 libmagickcore-6.q16-3-extra
+  libmagickwand-6.q16-3 libmedia1 libmimic0 libmono-c5-1.1-cil
+  libmonoboehm-2.0-dev libmozjs-52-0 libmutter-2-0 libnss-myhostname
+  libnuma-dev libopencv-calib3d2.4v5 libopencv-contrib2.4v5
+  libopencv-core2.4v5 libopencv-features2d2.4v5 libopencv-flann2.4v5
+  libopencv-gpu2.4v5 libopencv-highgui2.4v5 libopencv-imgproc2.4v5
+  libopencv-legacy2.4v5 libopencv-ml2.4v5 libopencv-objdetect2.4v5
+  libopencv-ocl2.4v5 libopencv-photo2.4v5 libopencv-stitching2.4v5
+  libopencv-superres2.4v5 libopencv-ts2.4v5 libopencv-video2.4v5
+  libopencv-videostab2.4v5 libopencv2.4-jni libopenjpeg5 libopenmpi-dev
+  libopenmpi2 libpango1.0-dev libpcre3-dev libpcre32-3 libpcrecpp0v5
+  libpixman-1-dev libpoppler73 libpostproc-ffmpeg53 libpostproc54 libprocps6
+  libproj12 libprotoc9v5 libschroedinger-1.0-0 libsodium18 libsrtp0
+  libswresample-ffmpeg1 libswresample2 libswscale-ffmpeg3 libswscale4
+  libtinfo-dev libva1 libwebkit1.1-cil libwebkitgtk-1.0-0 libwebpdemux1
+  libwildmidi1 libx264-148 libx265-146 libx265-79 libxcb-render0-dev
+  libxcb-shm0-dev libxcomposite-dev libxcursor-dev libxdamage-dev
+  libxfixes-dev libxi-dev libxinerama-dev libxml2-utils libxrandr-dev
+  linux-headers-4.15.0-42 linux-headers-4.15.0-42-generic
+  linux-image-4.15.0-42-generic linux-modules-4.15.0-42-generic
+  linux-modules-extra-4.15.0-42-generic mpi-default-dev nplan
+  oxideqt-codecs-extra python3-oauth python3-zope.interface
+  snapd-login-service x11proto-composite-dev x11proto-damage-dev
+  x11proto-fixes-dev x11proto-randr-dev x11proto-xinerama-dev
+  xserver-xorg-input-evdev-hwe-16.04 xserver-xorg-input-synaptics-hwe-16.04
+  xserver-xorg-legacy-hwe-16.04 xserver-xorg-video-amdgpu-hwe-16.04
+  xserver-xorg-video-qxl-hwe-16.04 xserver-xorg-video-vesa-hwe-16.04
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+gzd@X230:~$ sudo apt autoremove
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following packages will be REMOVED:
+  flashplugin-installer gir1.2-gtk-2.0 gir1.2-harfbuzz-0.0 gir1.2-mutter-2
+  icu-devtools libargon2-0 libarmadillo8 libass5 libatk1.0-dev
+  libavcodec-ffmpeg56 libavcodec57 libavfilter-ffmpeg5 libavfilter6
+  libavformat-ffmpeg56 libavformat57 libavresample-ffmpeg2 libavresample3
+  libavutil-ffmpeg54 libavutil55 libbluray1 libboost-atomic-dev
+  libboost-atomic1.58.0 libboost-atomic1.65.1 libboost-atomic1.67-dev
+  libboost-atomic1.67.0 libboost-chrono-dev libboost-chrono1.58.0
+  libboost-chrono1.65.1 libboost-chrono1.67-dev libboost-chrono1.67.0
+  libboost-container-dev libboost-container1.65.1 libboost-container1.67-dev
+  libboost-container1.67.0 libboost-context-dev libboost-context1.58.0
+  libboost-context1.65.1 libboost-context1.67-dev libboost-context1.67.0
+  libboost-coroutine-dev libboost-coroutine1.58.0 libboost-coroutine1.65.1
+  libboost-coroutine1.67-dev libboost-coroutine1.67.0 libboost-date-time-dev
+  libboost-date-time1.65.1 libboost-date-time1.67-dev libboost-dev
+  libboost-exception-dev libboost-exception1.67-dev libboost-fiber-dev
+  libboost-fiber1.65.1 libboost-fiber1.67-dev libboost-fiber1.67.0
+  libboost-filesystem-dev libboost-filesystem1.65.1
+  libboost-filesystem1.67-dev libboost-graph-dev libboost-graph-parallel-dev
+  libboost-graph-parallel1.65.1 libboost-graph-parallel1.67-dev
+  libboost-graph-parallel1.67.0 libboost-graph1.58.0 libboost-graph1.65.1
+  libboost-graph1.67-dev libboost-graph1.67.0 libboost-iostreams-dev
+  libboost-iostreams1.65.1 libboost-iostreams1.67-dev libboost-locale-dev
+  libboost-locale1.58.0 libboost-locale1.65.1 libboost-locale1.67-dev
+  libboost-log-dev libboost-log1.58.0 libboost-log1.65.1 libboost-log1.67-dev
+  libboost-log1.67.0 libboost-math-dev libboost-math1.58.0 libboost-math1.65.1
+  libboost-math1.67-dev libboost-math1.67.0 libboost-mpi-dev
+  libboost-mpi-python1.65.1 libboost-mpi1.65.1 libboost-mpi1.67-dev
+  libboost-mpi1.67.0 libboost-numpy-dev libboost-numpy1.65.1
+  libboost-numpy1.67-dev libboost-numpy1.67.0 libboost-program-options-dev
+  libboost-program-options1.58.0 libboost-program-options1.65.1
+  libboost-program-options1.67-dev libboost-program-options1.67.0
+  libboost-python-dev libboost-python1.58.0 libboost-python1.65.1
+  libboost-python1.67-dev libboost-random-dev libboost-random1.58.0
+  libboost-random1.65.1 libboost-random1.67-dev libboost-random1.67.0
+  libboost-regex-dev libboost-regex1.58.0 libboost-regex1.65.1
+  libboost-regex1.67-dev libboost-regex1.67.0 libboost-serialization-dev
+  libboost-serialization1.58.0 libboost-serialization1.65.1
+  libboost-serialization1.67-dev libboost-serialization1.67.0
+  libboost-signals-dev libboost-signals1.58.0 libboost-signals1.65.1
+  libboost-signals1.67-dev libboost-signals1.67.0 libboost-stacktrace-dev
+  libboost-stacktrace1.65.1 libboost-stacktrace1.67-dev
+  libboost-stacktrace1.67.0 libboost-system-dev libboost-system1.65.1
+  libboost-system1.67-dev libboost-test-dev libboost-test1.58.0
+  libboost-test1.65.1 libboost-test1.67-dev libboost-test1.67.0
+  libboost-thread-dev libboost-thread1.58.0 libboost-thread1.65.1
+  libboost-thread1.67-dev libboost-timer-dev libboost-timer1.58.0
+  libboost-timer1.65.1 libboost-timer1.67-dev libboost-timer1.67.0
+  libboost-tools-dev libboost-type-erasure-dev libboost-type-erasure1.65.1
+  libboost-type-erasure1.67-dev libboost-type-erasure1.67.0 libboost-wave-dev
+  libboost-wave1.58.0 libboost-wave1.65.1 libboost-wave1.67-dev
+  libboost-wave1.67.0 libboost1.67-dev libboost1.67-tools-dev
+  libcairo-script-interpreter2 libcairo2-dev libcamel-1.2-61 libcapnp-0.5.3
+  libcdio17 libchromaprint0 libdns-export1100 libfribidi-dev
+  libgdk-pixbuf2.0-dev libgfortran3 libgfortran4 libglib2.0-dev
+  libglib2.0-dev-bin libgraphite2-dev libgtk2.0-dev libgtkglext1 libhardware2
+  libharfbuzz-dev libharfbuzz-gobject0 libhdf5-10 libhdf5-cpp-11 libhwloc-dev
+  libhybris libhybris-common1 libibverbs-dev libicu-dev libicu-le-hb-dev
+  libicu-le-hb0 libiculx60 libjasper-dev libjavascriptcoregtk-1.0-0 libllvm6.0
+  liblouis14 libmad0 libmagickcore-6.q16-3 libmagickcore-6.q16-3-extra
+  libmagickwand-6.q16-3 libmedia1 libmimic0 libmono-c5-1.1-cil
+  libmonoboehm-2.0-dev libmozjs-52-0 libmutter-2-0 libnss-myhostname
+  libnuma-dev libopencv-calib3d2.4v5 libopencv-contrib2.4v5
+  libopencv-core2.4v5 libopencv-features2d2.4v5 libopencv-flann2.4v5
+  libopencv-gpu2.4v5 libopencv-highgui2.4v5 libopencv-imgproc2.4v5
+  libopencv-legacy2.4v5 libopencv-ml2.4v5 libopencv-objdetect2.4v5
+  libopencv-ocl2.4v5 libopencv-photo2.4v5 libopencv-stitching2.4v5
+  libopencv-superres2.4v5 libopencv-ts2.4v5 libopencv-video2.4v5
+  libopencv-videostab2.4v5 libopencv2.4-jni libopenjpeg5 libopenmpi-dev
+  libopenmpi2 libpango1.0-dev libpcre3-dev libpcre32-3 libpcrecpp0v5
+  libpixman-1-dev libpoppler73 libpostproc-ffmpeg53 libpostproc54 libprocps6
+  libproj12 libprotoc9v5 libschroedinger-1.0-0 libsodium18 libsrtp0
+  libswresample-ffmpeg1 libswresample2 libswscale-ffmpeg3 libswscale4
+  libtinfo-dev libva1 libwebkit1.1-cil libwebkitgtk-1.0-0 libwebpdemux1
+  libwildmidi1 libx264-148 libx265-146 libx265-79 libxcb-render0-dev
+  libxcb-shm0-dev libxcomposite-dev libxcursor-dev libxdamage-dev
+  libxfixes-dev libxi-dev libxinerama-dev libxml2-utils libxrandr-dev
+  linux-headers-4.15.0-42 linux-headers-4.15.0-42-generic
+  linux-image-4.15.0-42-generic linux-modules-4.15.0-42-generic
+  linux-modules-extra-4.15.0-42-generic mpi-default-dev nplan
+  oxideqt-codecs-extra python3-oauth python3-zope.interface
+  snapd-login-service x11proto-composite-dev x11proto-damage-dev
+  x11proto-fixes-dev x11proto-randr-dev x11proto-xinerama-dev
+  xserver-xorg-input-evdev-hwe-16.04 xserver-xorg-input-synaptics-hwe-16.04
+  xserver-xorg-legacy-hwe-16.04 xserver-xorg-video-amdgpu-hwe-16.04
+  xserver-xorg-video-qxl-hwe-16.04 xserver-xorg-video-vesa-hwe-16.04
+0 upgraded, 0 newly installed, 280 to remove and 0 not upgraded.
+After this operation, 1,020 MB disk space will be freed.
+Do you want to continue? [Y/n] y
